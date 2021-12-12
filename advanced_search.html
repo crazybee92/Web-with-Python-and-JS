@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Розширений пошук Google</title>
+    <link rel="stylesheet" href="./stylesheet.css" />
+  </head>
+    <body>
+      <div class="navi-panel">
+        <a class="page-link" href="index.html">Стандарний пошук</a>
+        <a class="page-link" href="picture_search.html">Зображення</a>
+      </div>
+      <div class="page-logo">
+          <img class="logo" src="./img/googlelogo_color_272x92dp.png" alt="Google Advanced"/>
+      </div>
+      <div class="search-container">
+        <div class="container-title"> <h1>Розширений пошук</h1></div>
+        <hr class="divider"></hr>
+        <div class="container-phrase"> <h2>Знайти сторінки із...</h2></div>
+        
+        <div class="form-box">
+          <form action="https://google.com/search">
+          <div class=input-variant>  
+            <h3 class="form_header">"усіма цими словами"</h3>
+            <div class="form_input">
+              <input class="form_field" type="text" name="as_q" />
+            </div>
+          </div>
+
+          <div class=input-variant>  
+            <h3 class="form_header">"саме цим словом або фразою"</h3>
+            <div class="form_input">
+              <input class="form_field" type="text" name="as_esq" />
+            </div>
+          </div>
+          <div class=input-variant>  
+            <h3 class="form_header">"з будь-яким із цих слів"</h3>
+            <div class="form_input">
+              <input class="form_field" type="text" name="as_oq" />          
+            </div>
+          </div>
+
+          <div class=input-variant>  
+            <h3 class="form_header">"жодне з цих слів"</h3>
+            <div class="form_input">
+              <input class="form_field" type="text" name="as_eq" />          
+            </div>
+          </div>
+
+            <div class="button_adv_search">
+              <input class = "btn_adv" type="submit" value="Розширений пошук" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </body>
